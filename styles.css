@@ -1,0 +1,64 @@
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: rgb(211, 211, 211);
+}
+
+.body { 
+    background-image:url('./teri-yan_final3.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center; 
+}
+
+.h1 {
+    text-shadow: 2px 2px green;
+  }
+
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .img {
+    width: 33%;
+    height: 33%;
+    float: left; 
+    max-width: 235px;
+  }
